@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+#basic cidr to subnetmask conertor 
+
 import sys
 
 def cidr_to_mask(value):
