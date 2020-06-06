@@ -50,4 +50,4 @@ def cidr_to_mask(value):
 
 net, mask = cidr_to_mask(sys.argv[1])
 
-print net + " mask " + str(mask)
+print(net + " mask " + str(mask))
