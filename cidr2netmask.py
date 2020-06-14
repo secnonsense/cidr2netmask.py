@@ -48,6 +48,9 @@ def cidr_to_mask(value):
     smask=str(oct1) + '.' + str(oct2) + '.' + str(oct3) + '.' + str(oct4)
     return net, smask
 
-net, mask = cidr_to_mask(sys.argv[1])
+def main():
+    net, mask = cidr_to_mask(sys.argv[1])
+    print(net + " mask " + str(mask))
 
-print(net + " mask " + str(mask))
+if __name__ == "__main__":
+    main()
